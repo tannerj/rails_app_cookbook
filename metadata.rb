@@ -8,3 +8,5 @@ version '0.1.0'
 
 cookbook "apt"
 cookbook "nginx"
+cookbook "postgresql"
+cookbook "database"
