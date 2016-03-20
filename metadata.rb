@@ -6,7 +6,7 @@ description 'Installs/Configures rails_app_cookbook'
 long_description 'Installs/Configures rails_app_cookbook'
 version '0.1.0'
 
-cookbook "apt"
-cookbook "nginx"
-cookbook "postgresql"
-cookbook "database"
+depends 'apt'
+depends 'nginx'
+depends 'postgresql'
+depends 'database'
